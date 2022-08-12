@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+[class]{
+    background-color: rgb(199, 96, 41);
+}
+
+a[href]{
+    text-align: center;
+    margin: 2%;
+    color: rgb(54, 230, 38);
+}
+a[href$=".com"]{
+    text-align: right;
+    margin-top: 10px;
+    color: blue; 
+}
+article[class^="pre"]{
+    margin: top 25000px;
+    color: rgb(247, 247, 247);
+}
+p[class*="rra"]{
+    background-color: rgb(25, 208, 214);
+}
+
+.subtitulo + article{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: yellow;
+}
+.hermanos ~ p{
+    padding: 10px;
+    border: 4px double black;
+    text-align: center;
+}
+.content .subtitulo{
+    background-color: red;
+}
+
+
+.parrafo.aside{
+    background-color: rgb(25, 230, 76);
+    font-size: 50px;
+    margin: 3px;
+    padding: 3px;
+}
+
+/* $= sufijo
+*^= prefijo
+[class]{
+    background-color: rgb(124, 111, 104);
+}
+
+selectores multiples***********
+*/
+.ubicacion>.press{
+    background-color: rgb(39, 202, 120)
+}
+
